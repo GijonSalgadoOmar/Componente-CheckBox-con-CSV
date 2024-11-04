@@ -89,13 +89,13 @@ La clase permite:
     }
   </pre>
 * getArchivoCSV(): obtiene la ruta del archivo actual.
-* <pre>
+  <pre>
     public String getArchivoCSV(){
         return archivoCSV;
     }
-</pre>
+  </pre>
 * setColumnaBusqueda(int columna): define la columna de búsqueda.
-<pre>
+  <pre>
     public void setColumnaBusqueda(int columna){
         this.columnaBusqueda = columna;
         if (!archivoCSV.isEmpty()){
@@ -106,28 +106,28 @@ La clase permite:
             }
         }
     }
-</pre>
+  </pre>
 * getColumnaBusqueda(): obtiene el índice de la columna de búsqueda.
-<pre>
+  <pre>
     public int getColumnaBusqueda(){
         return columnaBusqueda;
     }
-</pre>
+  </pre>
 * getComboBox(): proporciona acceso al JComboBox interno.
-<pre>
+  <pre>
     public JComboBox<String> getComboBox(){
         return comboBox;
     }
-</pre>
+  </pre>
 * getSeleccion(): obtiene el elemento seleccionado.
-        <pre>
+  <pre>
             public Object getSeleccion(){
         return comboBox.getSelectedItem();
     }
-        </pre>
+  </pre>
 * setIndex(int i): establece la selección del índice en el ComboBox.
-<pre>
+  <pre>
     public void setIndex(int i){
         comboBox.setSelectedIndex(i);
     }
-</pre>
+  </pre>
